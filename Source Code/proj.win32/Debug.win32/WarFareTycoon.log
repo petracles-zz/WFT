@@ -1,0 +1,94 @@
+﻿Build started 12/13/2013 6:32:57 PM.
+     1>Project "C:\Users\Christopher\Dropbox\cocos2d-x-develop\projects\WarFareTycoon\proj.win32\WarFareTycoon.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Christopher\Dropbox\cocos2d-x-develop\cocos\2d\..\..\cocos\audio\include" /I"C:\Users\Christopher\Dropbox\cocos2d-x-develop\cocos\2d\..\..\external" /I"C:\Users\Christopher\Dropbox\cocos2d-x-develop\cocos\2d\..\..\external\chipmunk\include\chipmunk" /I"C:\Users\Christopher\Dropbox\cocos2d-x-develop\cocos\2d\..\..\extensions" /I..\Classes /I.. /I"C:\Users\Christopher\Dropbox\cocos2d-x-develop\cocos\2d\..\..\cocos\2d" /I"C:\Users\Christopher\Dropbox\cocos2d-x-develop\cocos\2d\..\..\cocos\base" /I"C:\Users\Christopher\Dropbox\cocos2d-x-develop\cocos\2d\..\..\cocos\physics" /I"C:\Users\Christopher\Dropbox\cocos2d-x-develop\cocos\2d\..\..\cocos\math\kazmath\include" /I"C:\Users\Christopher\Dropbox\cocos2d-x-develop\cocos\2d\..\..\cocos\2d\platform\win32" /I"C:\Users\Christopher\Dropbox\cocos2d-x-develop\cocos\2d\..\..\external\glfw3\include\win32" /I"C:\Users\Christopher\Dropbox\cocos2d-x-develop\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc120.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\HelloWorldScene.cpp
+         HelloWorldScene.cpp
+     1>c:\users\christopher\dropbox\cocos2d-x-develop\projects\warfaretycoon\classes\helloworldscene.h(34): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 c:\users\christopher\dropbox\cocos2d-x-develop\cocos\2d\ccdeprecated.h(780) : see declaration of 'cocos2d::CCPoint'
+     1>c:\users\christopher\dropbox\cocos2d-x-develop\projects\warfaretycoon\classes\helloworldscene.h(34): warning C4996: 'cocos2d::CCArray': was declared deprecated
+                 c:\users\christopher\dropbox\cocos2d-x-develop\cocos\2d\ccdeprecated.h(544) : see declaration of 'cocos2d::CCArray'
+     1>c:\users\christopher\dropbox\cocos2d-x-develop\projects\warfaretycoon\classes\player.h(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\christopher\dropbox\cocos2d-x-develop\projects\warfaretycoon\classes\unit.h(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\christopher\dropbox\cocos2d-x-develop\projects\warfaretycoon\classes\unit.h(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\christopher\dropbox\cocos2d-x-develop\projects\warfaretycoon\classes\unit.h(5): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\christopher\dropbox\cocos2d-x-develop\projects\warfaretycoon\classes\unit.h(6): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\christopher\dropbox\cocos2d-x-develop\projects\warfaretycoon\classes\player.h(40): warning C4101: 'ex' : unreferenced local variable
+     1>c:\users\christopher\dropbox\cocos2d-x-develop\projects\warfaretycoon\classes\player.h(51): warning C4101: 'ex' : unreferenced local variable
+     1>c:\users\christopher\dropbox\cocos2d-x-develop\projects\warfaretycoon\classes\player.h(62): warning C4101: 'ex' : unreferenced local variable
+     1>c:\users\christopher\dropbox\cocos2d-x-develop\projects\warfaretycoon\classes\enemy.h(1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\christopher\dropbox\cocos2d-x-develop\projects\warfaretycoon\classes\helloworldscene.cpp(14): warning C4996: 'cocos2d::CCTMXTiledMap': was declared deprecated
+                 c:\users\christopher\dropbox\cocos2d-x-develop\cocos\2d\ccdeprecated.h(772) : see declaration of 'cocos2d::CCTMXTiledMap'
+     1>c:\users\christopher\dropbox\cocos2d-x-develop\projects\warfaretycoon\classes\helloworldscene.cpp(15): warning C4996: 'cocos2d::CCTMXLayer': was declared deprecated
+                 c:\users\christopher\dropbox\cocos2d-x-develop\cocos\2d\ccdeprecated.h(771) : see declaration of 'cocos2d::CCTMXLayer'
+     1>c:\users\christopher\dropbox\cocos2d-x-develop\projects\warfaretycoon\classes\helloworldscene.cpp(244): warning C4996: 'cocos2d::CCTMXTiledMap': was declared deprecated
+                 c:\users\christopher\dropbox\cocos2d-x-develop\cocos\2d\ccdeprecated.h(772) : see declaration of 'cocos2d::CCTMXTiledMap'
+                 c:\users\christopher\dropbox\cocos2d-x-develop\cocos\2d\ccdeprecated.h(772) : see declaration of 'cocos2d::CCTMXTiledMap'
+     1>c:\users\christopher\dropbox\cocos2d-x-develop\projects\warfaretycoon\classes\helloworldscene.cpp(245): warning C4996: 'cocos2d::CCTMXLayer': was declared deprecated
+                 c:\users\christopher\dropbox\cocos2d-x-develop\cocos\2d\ccdeprecated.h(771) : see declaration of 'cocos2d::CCTMXLayer'
+                 c:\users\christopher\dropbox\cocos2d-x-develop\cocos\2d\ccdeprecated.h(771) : see declaration of 'cocos2d::CCTMXLayer'
+     1>c:\users\christopher\dropbox\cocos2d-x-develop\projects\warfaretycoon\classes\helloworldscene.cpp(247): warning C4996: 'cocos2d::TMXTiledMap::layerNamed': was declared deprecated
+                 c:\users\christopher\dropbox\cocos2d-x-develop\cocos\2d\cctmxtiledmap.h(140) : see declaration of 'cocos2d::TMXTiledMap::layerNamed'
+     1>c:\users\christopher\dropbox\cocos2d-x-develop\projects\warfaretycoon\classes\helloworldscene.cpp(272): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\christopher\dropbox\cocos2d-x-develop\projects\warfaretycoon\classes\helloworldscene.cpp(283): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\christopher\dropbox\cocos2d-x-develop\projects\warfaretycoon\classes\helloworldscene.cpp(345): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\christopher\dropbox\cocos2d-x-develop\projects\warfaretycoon\classes\helloworldscene.cpp(368): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\christopher\dropbox\cocos2d-x-develop\projects\warfaretycoon\classes\helloworldscene.cpp(370): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\christopher\dropbox\cocos2d-x-develop\projects\warfaretycoon\classes\helloworldscene.cpp(407): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\christopher\dropbox\cocos2d-x-develop\projects\warfaretycoon\classes\helloworldscene.cpp(409): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\christopher\dropbox\cocos2d-x-develop\projects\warfaretycoon\classes\helloworldscene.cpp(500): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 c:\users\christopher\dropbox\cocos2d-x-develop\cocos\2d\ccdeprecated.h(780) : see declaration of 'cocos2d::CCPoint'
+                 c:\users\christopher\dropbox\cocos2d-x-develop\cocos\2d\ccdeprecated.h(780) : see declaration of 'cocos2d::CCPoint'
+     1>c:\users\christopher\dropbox\cocos2d-x-develop\projects\warfaretycoon\classes\helloworldscene.cpp(502): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 c:\users\christopher\dropbox\cocos2d-x-develop\cocos\2d\ccdeprecated.h(780) : see declaration of 'cocos2d::CCPoint'
+     1>c:\users\christopher\dropbox\cocos2d-x-develop\projects\warfaretycoon\classes\helloworldscene.cpp(503): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 c:\users\christopher\dropbox\cocos2d-x-develop\cocos\2d\ccdeprecated.h(780) : see declaration of 'cocos2d::CCPoint'
+                 c:\users\christopher\dropbox\cocos2d-x-develop\cocos\2d\ccdeprecated.h(780) : see declaration of 'cocos2d::CCPoint'
+     1>c:\users\christopher\dropbox\cocos2d-x-develop\projects\warfaretycoon\classes\helloworldscene.cpp(505): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 c:\users\christopher\dropbox\cocos2d-x-develop\cocos\2d\ccdeprecated.h(780) : see declaration of 'cocos2d::CCPoint'
+     1>c:\users\christopher\dropbox\cocos2d-x-develop\projects\warfaretycoon\classes\helloworldscene.cpp(506): warning C4996: 'cocos2d::CCArray': was declared deprecated
+                 c:\users\christopher\dropbox\cocos2d-x-develop\cocos\2d\ccdeprecated.h(544) : see declaration of 'cocos2d::CCArray'
+     1>c:\users\christopher\dropbox\cocos2d-x-develop\projects\warfaretycoon\classes\helloworldscene.cpp(506): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 c:\users\christopher\dropbox\cocos2d-x-develop\cocos\2d\ccdeprecated.h(780) : see declaration of 'cocos2d::CCPoint'
+     1>c:\users\christopher\dropbox\cocos2d-x-develop\projects\warfaretycoon\classes\helloworldscene.cpp(508): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 c:\users\christopher\dropbox\cocos2d-x-develop\cocos\2d\ccdeprecated.h(780) : see declaration of 'cocos2d::CCPoint'
+     1>c:\users\christopher\dropbox\cocos2d-x-develop\projects\warfaretycoon\classes\helloworldscene.cpp(509): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 c:\users\christopher\dropbox\cocos2d-x-develop\cocos\2d\ccdeprecated.h(780) : see declaration of 'cocos2d::CCPoint'
+     1>c:\users\christopher\dropbox\cocos2d-x-develop\projects\warfaretycoon\classes\helloworldscene.cpp(511): warning C4996: 'cocos2d::CCPoint': was declared deprecated
+                 c:\users\christopher\dropbox\cocos2d-x-develop\cocos\2d\ccdeprecated.h(780) : see declaration of 'cocos2d::CCPoint'
+     1>c:\users\christopher\dropbox\cocos2d-x-develop\projects\warfaretycoon\classes\helloworldscene.cpp(545): warning C4996: 'cocos2d::CCNode': was declared deprecated
+                 c:\users\christopher\dropbox\cocos2d-x-develop\cocos\2d\ccdeprecated.h(573) : see declaration of 'cocos2d::CCNode'
+     1>c:\users\christopher\dropbox\cocos2d-x-develop\projects\warfaretycoon\classes\helloworldscene.cpp(547): warning C4996: 'cocos2d::CCNode': was declared deprecated
+                 c:\users\christopher\dropbox\cocos2d-x-develop\cocos\2d\ccdeprecated.h(573) : see declaration of 'cocos2d::CCNode'
+     1>c:\users\christopher\dropbox\cocos2d-x-develop\projects\warfaretycoon\classes\helloworldscene.cpp(548): warning C4996: 'cocos2d::CCArray': was declared deprecated
+                 c:\users\christopher\dropbox\cocos2d-x-develop\cocos\2d\ccdeprecated.h(544) : see declaration of 'cocos2d::CCArray'
+       PreLinkEvent:
+         if not exist "C:\Users\Christopher\Dropbox\cocos2d-x-develop\projects\WarFareTycoon\proj.win32\Debug.win32\" mkdir "C:\Users\Christopher\Dropbox\cocos2d-x-develop\projects\WarFareTycoon\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\Users\Christopher\Dropbox\cocos2d-x-develop\cocos\2d\..\..\external\websockets\prebuilt\win32\*.*" "C:\Users\Christopher\Dropbox\cocos2d-x-develop\projects\WarFareTycoon\proj.win32\Debug.win32\"
+         :VCEnd
+         2 File(s) copied
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Christopher\Dropbox\cocos2d-x-develop\projects\WarFareTycoon\proj.win32\Debug.win32\WarFareTycoon.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Christopher\Dropbox\cocos2d-x-develop\projects\WarFareTycoon\proj.win32\Debug.win32\\" /LIBPATH:"C:\Users\Christopher\Dropbox\cocos2d-x-develop\projects\WarFareTycoon\proj.win32\Debug.win32\\" opengl32.lib glew32.lib libzlib.lib libpng.lib libjpeg.lib libtiff.lib libwebp.lib libiconv.lib glfw3.lib freetype250.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Christopher\Dropbox\cocos2d-x-develop\projects\WarFareTycoon\proj.win32\Debug.win32\WarFareTycoon.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Christopher\Dropbox\cocos2d-x-develop\projects\WarFareTycoon\proj.win32\Debug.win32\WarFareTycoon.lib" /MACHINE:X86 /SAFESEH Debug.win32\game.res
+         Debug.win32\AppDelegate.obj
+         Debug.win32\HelloWorldScene.obj
+         Debug.win32\Enemy.obj
+         Debug.win32\Gear.obj
+         Debug.win32\GearList.obj
+         Debug.win32\Item.obj
+         Debug.win32\main.obj
+         Debug.win32\Location.obj
+         Debug.win32\Player.obj
+         Debug.win32\TerrainList.obj
+         Debug.win32\Terrain.obj
+         Debug.win32\Unit.obj
+         Debug.win32\WarfareTycoonMain.obj
+         Debug.win32\Weapon.obj
+         Debug.win32\WeaponList.obj
+         "C:\Users\Christopher\Dropbox\cocos2d-x-develop\projects\WarFareTycoon\proj.win32\Debug.win32\libcocos2d.lib"
+         "C:\Users\Christopher\Dropbox\cocos2d-x-develop\projects\WarFareTycoon\proj.win32\Debug.win32\libAudio.lib"
+         "C:\Users\Christopher\Dropbox\cocos2d-x-develop\projects\WarFareTycoon\proj.win32\Debug.win32\libchipmunk.lib"
+         WarFareTycoon.vcxproj -> C:\Users\Christopher\Dropbox\cocos2d-x-develop\projects\WarFareTycoon\proj.win32\Debug.win32\WarFareTycoon.exe
+     1>Done Building Project "C:\Users\Christopher\Dropbox\cocos2d-x-develop\projects\WarFareTycoon\proj.win32\WarFareTycoon.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.55
